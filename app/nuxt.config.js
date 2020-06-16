@@ -56,5 +56,11 @@ export default {
      ** You can extend webpack config here
      */
     extend(config, ctx) {}
+  },
+  /*
+  ** Router Customizations
+  */
+  router: {
+    linkExactActiveClass: 'underline'
   }
 }
