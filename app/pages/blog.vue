@@ -1,29 +1,18 @@
 <template>
-  <div class="container">
+  <div class="container max-w-2xl mx-auto text-lext flex items-center">
     <div>
-      <h1 class="title">
+      <h1 class="title text-6xl">
         Blog
       </h1>
     </div>
   </div>
 </template>
 
-<style>
-.container {
-  margin: 0 auto;
-  min-height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-}
-
+<style scoped>
 .title {
-  font-family: 'Quicksand', 'Source Sans Pro', -apple-system, BlinkMacSystemFont,
+  font-family: 'Philosopher', sans-serif, 'Source Sans Pro', -apple-system, BlinkMacSystemFont,
     'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
   display: block;
-  font-weight: 300;
-  font-size: 100px;
   color: #35495e;
   letter-spacing: 1px;
 }
