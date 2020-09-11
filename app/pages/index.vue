@@ -9,7 +9,7 @@
         at <a target="_blank" href="https://clutter.com">Clutter.</a>
       </p>
       <p>
-        This website is a sandbox of my ideas, projects, learnings and failures.
+        This website is a sandbox of my ideas, projects, and lessons.
       </p>
       <p>
         You can reach me on <a target="_blank" href="https://twitter.com/dafeiner">Twitter</a> or
