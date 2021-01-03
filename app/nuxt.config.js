@@ -1,5 +1,4 @@
 export default {
-  mode: 'universal',
   /*
    ** Headers of the page
    */
@@ -73,5 +72,7 @@ export default {
   */
   router: {
     linkExactActiveClass: 'underline'
-  }
+  },
+
+  target: 'static'
 }
