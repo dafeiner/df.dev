@@ -1,3 +1,5 @@
+require('dotenv').config();
+
 export default {
   /*
    ** Headers of the page
@@ -44,6 +46,7 @@ export default {
    ** Nuxt.js dev-modules
    */
   buildModules: [
+    '@nuxtjs/dotenv',
     '@nuxt/typescript-build',
     // Doc: https://github.com/nuxt-community/nuxt-tailwindcss
     '@nuxtjs/tailwindcss'
@@ -82,5 +85,9 @@ export default {
     linkExactActiveClass: 'underline'
   },
 
-  target: 'static'
+  target: 'static',
+
+  env: {
+    ghostAPIKey: process.env.GHOST_API_KEY || '',
+  }
 }
