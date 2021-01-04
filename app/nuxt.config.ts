@@ -16,8 +16,16 @@ export default {
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
-      { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Philosopher&display=swap' },
-      { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Catamaran&family=Source+Code+Pro&display=swap' }
+      {
+        rel: 'stylesheet',
+        href:
+          'https://fonts.googleapis.com/css2?family=Philosopher&display=swap'
+      },
+      {
+        rel: 'stylesheet',
+        href:
+          'https://fonts.googleapis.com/css2?family=Catamaran&family=Source+Code+Pro&display=swap'
+      }
     ]
   },
   /*
@@ -46,7 +54,7 @@ export default {
   modules: [
     // Doc: https://axios.nuxtjs.org/usage
     '@nuxtjs/axios',
-    'nuxt-purgecss',
+    'nuxt-purgecss'
   ],
 
   purgeCSS: {
@@ -62,14 +70,14 @@ export default {
    */
   build: {
     extractCSS: true,
-    /*
+    /*s
      ** You can extend webpack config here
      */
-    extend(config, ctx) {}
+    extend(_config: any, _ctx: any) {}
   },
   /*
-  ** Router Customizations
-  */
+   ** Router Customizations
+   */
   router: {
     linkExactActiveClass: 'underline'
   },
