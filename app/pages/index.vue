@@ -6,14 +6,14 @@
       </h1>
       <p class="text-2xl">
         Welcome to my page. I am software builder out of Los Angeles, currently
-        at <a target="_blank" href="https://clutter.com">Clutter.</a>
+        at <a target="_blank" rel="noreferrer" href="https://clutter.com">Clutter.</a>
       </p>
       <p>
         This website is a sandbox of my ideas, projects, and lessons.
       </p>
       <p>
-        You can reach me on <a target="_blank" href="https://twitter.com/dafeiner">Twitter</a> or
-        <a target="_blank" href="https://www.linkedin.com/in/david-feinerman/">LinkedIn</a> or
+        You can reach me on <a target="_blank" rel="noreferrer" href="https://twitter.com/dafeiner">Twitter</a> or
+        <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/david-feinerman/">LinkedIn</a> or
         <a type="email" href="mailto:fire@hey.com">email</a> me.
       </p>
     </div>
