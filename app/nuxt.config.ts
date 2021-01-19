@@ -1,4 +1,5 @@
 require('dotenv').config();
+import { getPosts } from './plugins/ghost';
 
 export default {
   /*
@@ -88,6 +89,17 @@ export default {
   target: 'static',
 
   env: {
-    ghostAPIKey: process.env.GHOST_API_KEY || '',
+    ghostAPIKey: process.env.GHOST_API_KEY || ''
+  },
+
+  generate: {
+    routes() {
+      return getPosts().then((posts) =>
+        posts.map((post) => ({
+          route: `/blog/${post.slug}`,
+          payload: post
+        }))
+      );
+    }
   }
-}
+};
