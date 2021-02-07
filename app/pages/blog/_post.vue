@@ -49,7 +49,7 @@ export default {
   },
   methods: {
     date: function(post) {
-      return dayjs(post.created_at).format('MMMM D, YYYY');
+      return dayjs(post.published_at).format('MMMM D, YYYY');
     }
   }
 };
