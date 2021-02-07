@@ -1,7 +1,7 @@
 <template>
-  <div class="container max-w-2xl mx-auto text-lext flex items-center">
+  <div class="container max-w-2xl mx-auto text-lext flex items-center px-4">
     <div>
-      <h1 class="title text-6xl">
+      <h1 class="title text-4xl md:text-6xl sm:text-4xl">
         {{ this.post.title }}
       </h1>
       <p class="blog-date">{{ date(this.post) }}</p>
