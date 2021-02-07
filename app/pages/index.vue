@@ -6,15 +6,27 @@
       </h1>
       <p class="text-2xl">
         Welcome to my page. I am software builder out of Los Angeles, currently
-        at <a target="_blank" rel="noreferrer" href="https://clutter.com">Clutter.</a>
+        at
+        <a target="_blank" rel="noreferrer" href="https://clutter.com"
+          >Clutter.</a
+        >
       </p>
       <p>
         This website is a sandbox of my ideas, projects, and lessons.
       </p>
       <p>
-        You can reach me on <a target="_blank" rel="noreferrer" href="https://twitter.com/dafeiner">Twitter</a> or
-        <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/david-feinerman/">LinkedIn</a> or
-        <a type="email" href="mailto:fire@hey.com">email</a> me.
+        You can reach me on
+        <a target="_blank" rel="noreferrer" href="https://twitter.com/dafeiner"
+          >Twitter</a
+        >
+        or
+        <a
+          target="_blank"
+          rel="noreferrer"
+          href="https://www.linkedin.com/in/david-feinerman/"
+          >LinkedIn</a
+        >
+        or <a type="email" href="mailto:fire@hey.com">email</a> me.
       </p>
     </div>
   </div>
@@ -32,7 +44,7 @@
 p {
   @apply text-2xl mb-3;
   font-family: 'Catamaran';
-  color: #526488;
+  color: #35495e;
 }
 
 a {
