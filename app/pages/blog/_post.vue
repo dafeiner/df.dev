@@ -5,16 +5,16 @@
         {{ this.post.title }}
       </h1>
       <p class="blog-date">{{ date(this.post) }}</p>
-      <p>
-      <div class="post-content" v-html="post.html"/>
+      <p></p>
+      <div class="post-content" v-html="post.html" />
     </div>
   </div>
 </template>
 
 <style scoped>
 .title {
-  font-family: 'Philosopher', sans-serif, 'Source Sans Pro', -apple-system, BlinkMacSystemFont,
-    'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  font-family: 'Philosopher', sans-serif, 'Source Sans Pro', -apple-system,
+    BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
   display: block;
   color: #35495e;
   letter-spacing: 1px;
@@ -31,13 +31,13 @@
   color: #526488;
 }
 .post-content >>> a {
-  @apply underline
+  @apply underline;
 }
 </style>
 
 <script>
 import { getPost } from '~/plugins/ghost';
-import * as dayjs from 'dayjs'
+import * as dayjs from 'dayjs';
 
 export default {
   async asyncData({ payload, params }) {
@@ -51,5 +51,5 @@ export default {
       return dayjs(post.created_at).format('MMMM D, YYYY');
     }
   }
-}
+};
 </script>
