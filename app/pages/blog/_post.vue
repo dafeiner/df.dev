@@ -31,6 +31,12 @@
   font-family: 'Catamaran';
   color: #35495e;
 }
+
+.post-content >>> blockquote {
+  @apply mb-3 p-2 text-2xl border-l-4 border-purple-900 italic;
+  color: #35495e;
+}
+
 .post-content >>> a {
   @apply underline;
 }
