@@ -49,5 +49,6 @@ p {
 
 a {
   @apply underline;
+  @apply text-indigo-700;
 }
 </style>

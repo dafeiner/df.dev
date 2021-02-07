@@ -30,6 +30,12 @@ li {
   font-family: 'Catamaran';
   color: #35495e;
 }
+
+a {
+  @apply text-indigo-700;
+  @apply text-2xl;
+  @apply underline;
+}
 </style>
 
 <script>

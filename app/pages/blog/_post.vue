@@ -33,12 +33,13 @@
 }
 
 .post-content >>> blockquote {
-  @apply mb-3 p-2 text-2xl border-l-4 border-purple-900 italic;
+  @apply mb-3 p-2 text-2xl border-l-4 border-indigo-700 italic;
   color: #35495e;
 }
 
 .post-content >>> a {
   @apply underline;
+  @apply text-indigo-700;
 }
 </style>
 
