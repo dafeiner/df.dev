@@ -9,6 +9,7 @@
           <nuxt-link :to="{ path: `blog/${post.slug}` }">{{
             post.title
           }}</nuxt-link>
+          - {{ post.publishedAt }}
         </li>
       </ul>
     </div>
@@ -24,9 +25,8 @@
   letter-spacing: 1px;
 }
 
-a {
-  @apply underline;
-  @apply text-2xl;
+li {
+  @apply text-lg;
   font-family: 'Catamaran';
   color: #35495e;
 }
@@ -34,6 +34,7 @@ a {
 
 <script>
 import { getPosts } from '~/plugins/ghost';
+import * as dayjs from 'dayjs';
 
 export default {
   data() {
@@ -44,10 +45,11 @@ export default {
 
   async fetch() {
     const posts = await getPosts();
-    const trimmedPosts = posts.map(({ uuid, title, slug }) => ({
+    const trimmedPosts = posts.map(({ uuid, title, slug, published_at }) => ({
       uuid,
       title,
-      slug
+      slug,
+      publishedAt: dayjs(published_at).format('MMMM D, YYYY')
     }));
     this.posts = trimmedPosts;
   }
