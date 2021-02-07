@@ -27,8 +27,9 @@
 
 .post-content >>> p {
   @apply mb-3;
+  @apply text-2xl;
   font-family: 'Catamaran';
-  color: #526488;
+  color: #35495e;
 }
 .post-content >>> a {
   @apply underline;

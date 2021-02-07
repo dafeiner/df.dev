@@ -26,8 +26,9 @@
 
 a {
   @apply underline;
+  @apply text-2xl;
   font-family: 'Catamaran';
-  color: #526488;
+  color: #35495e;
 }
 </style>
 
