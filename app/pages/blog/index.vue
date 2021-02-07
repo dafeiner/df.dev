@@ -1,17 +1,19 @@
 <template>
-  <div>
-    <h1 class="title text-6xl">
-      Blog
-    </h1>
+  <div class="container max-w-2xl mx-auto text-lext flex items-center px-4">
     <div>
-      <ul>
-        <li v-for="post of posts" :key="post.uuid">
-          <nuxt-link :to="{ path: `blog/${post.slug}` }">{{
-            post.title
-          }}</nuxt-link>
-          - {{ post.publishedAt }}
-        </li>
-      </ul>
+      <h1 class="title text-4xl md:text-6xl sm:text-4xl">
+        Blog
+      </h1>
+      <div>
+        <ul>
+          <li v-for="post of posts" :key="post.uuid">
+            <nuxt-link :to="{ path: `blog/${post.slug}` }">{{
+              post.title
+            }}</nuxt-link>
+            - {{ post.publishedAt }}
+          </li>
+        </ul>
+      </div>
     </div>
   </div>
 </template>
