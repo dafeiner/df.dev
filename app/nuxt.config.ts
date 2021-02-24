@@ -108,7 +108,8 @@ export default {
 
   pwa: {
     manifest: {
-      name: 'df.dev'
+      name: 'df.dev',
+      short_name: 'df.dev'
     }
   }
 };
