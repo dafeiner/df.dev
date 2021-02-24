@@ -7,7 +7,7 @@ export default {
    */
   head: {
     htmlAttrs: {
-      lang: 'en',
+      lang: 'en'
     },
     title: 'df.dev',
     meta: [
@@ -49,6 +49,7 @@ export default {
    ** Nuxt.js dev-modules
    */
   buildModules: [
+    '@nuxtjs/pwa',
     '@nuxtjs/dotenv',
     '@nuxt/typescript-build',
     // Doc: https://github.com/nuxt-community/nuxt-tailwindcss
@@ -102,6 +103,12 @@ export default {
           payload: post
         }))
       );
+    }
+  },
+
+  pwa: {
+    manifest: {
+      name: 'df.dev'
     }
   }
 };
