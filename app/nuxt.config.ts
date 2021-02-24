@@ -109,7 +109,11 @@ export default {
   pwa: {
     manifest: {
       name: 'df.dev',
-      short_name: 'df.dev'
+      short_name: 'df.dev',
+      background_color: '#4338CA'
+    },
+    meta: {
+      theme_color: '#4338CA'
     }
   }
 };
