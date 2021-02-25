@@ -31,6 +31,15 @@ export default {
         href:
           'https://fonts.googleapis.com/css2?family=Catamaran&family=Source+Code+Pro&display=swap'
       }
+    ],
+    script: [
+      {
+        src: 'https://umami-df-dev.herokuapp.com/umami.js',
+        'data-website-id': 'f519e669-02e8-48f0-9c9f-5bf662a46683',
+        'data-domains': 'df.dev',
+        async: true,
+        defer: true
+      }
     ]
   },
   /*
