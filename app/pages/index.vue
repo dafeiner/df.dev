@@ -5,11 +5,11 @@
         David Feinerman
       </h1>
       <p class="text-2xl">
-        Welcome to my page. I am software builder out of Los Angeles, currently
-        at
-        <a target="_blank" rel="noreferrer" href="https://clutter.com"
-          >Clutter.</a
-        >
+        Welcome to my page. I am software + product builder out of Los Angeles.
+        I am currently the Head of Engineering at
+        <a target="_blank" rel="noreferrer" href="https://https://rabbithole.gg"
+          >RabbitHole</a
+        >.
       </p>
       <p>
         This website is a sandbox of my ideas, projects, and lessons.
@@ -26,7 +26,7 @@
           href="https://www.linkedin.com/in/david-feinerman/"
           >LinkedIn</a
         >
-        or <a type="email" href="mailto:fire@hey.com">email</a> me.
+        or <a type="email" href="mailto:davidafeinerman@gmail.com">email</a> me.
       </p>
     </div>
   </div>
