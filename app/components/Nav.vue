@@ -37,6 +37,12 @@
         >
           Blog
         </nuxt-link>
+        <nuxt-link
+          class="block mt-4 lg:inline-block lg:mt-0 text-indigo-700 hover:underline mr-4"
+          to="/book"
+        >
+          Books
+        </nuxt-link>
       </div>
     </div>
   </nav>
